@@ -16,6 +16,20 @@
 - [x] **Production Ready**: CORS, env vars, deployments
 
 ## Tech Stack 🛠️
-Frontend: React 18 + Vite + Axios + Responsive CSS
-Backend: Node.js + Express.js + MongoDB Atlas
-Deployment: Render (Backend) + Netlify (Frontend)
+Frontend:
+├── React 18 + Vite (build tool)
+├── Axios (API calls)
+├── CSS Grid/Flexbox (responsive layout)
+└── Custom Responsive Dark Theme
+
+Backend:
+├── Node.js + Express.js (REST API)
+├── MongoDB Atlas (cloud database)
+├── Mongoose (ODM)
+├── CORS (cross-origin)
+└── dotenv (environment variables)
+
+Deployment:
+├── Render.com (Backend API)
+├── Netlify (Frontend hosting)
+└── MongoDB Atlas (Database)
